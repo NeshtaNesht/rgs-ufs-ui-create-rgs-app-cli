@@ -1,0 +1,7 @@
+def onDistrib(app, distr) {
+    nodejs(configId: 'npm-config', nodeJSInstallationName: 'v16.3.0-linux-x64') {
+        sh ("npm config set strict-ssl false && npm install && npm run build && cd ./build && zip -r rgs-ui *")
+    }
+    distr.addPL("./build/rgs-ui.zip")
+}
+return wrapJenkinsfile(this)

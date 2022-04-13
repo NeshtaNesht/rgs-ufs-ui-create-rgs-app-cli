@@ -1,0 +1,18 @@
+{
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "*",
+    "react-redux": "*",
+    "react-table": "*",
+    "redux": "*",
+    "redux-saga": "*",
+    "@material-ui/core": "*",
+    "@material-ui/icons": "*",
+    "@material-ui/styles": "*",
+    "@material-ui/lab": "*",
+    "@pcapcc360/react-ui": "*",
+    "@reduxjs/toolkit": "*",
+    "axios": "*",
+    "moment": "*",
+    "react-select": "*"
+}

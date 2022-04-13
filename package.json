@@ -1,0 +1,29 @@
+{
+  "name": "rgs-ufs-ui-create-rgs-app-cli",
+  "version": "1.0.0",
+  "description": "CLI-инструмент для быстрого каркаса модульного приложения РГС",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.sigma.sbrf.ru:8099/nexus/content/repositories/npm-corp/"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^10.0.0",
+    "readline-sync": "^1.4.10",
+    "replace-in-file": "^6.3.2"
+  },
+  "bin": {
+    "create-pcap-app": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.sigma.sbrf.ru:7999/gakrgs/rgs-ufs-ui-create-rgs-app-cli.git"
+  },
+  "author": "ГАКРКС",
+  "license": "ISC"
+}

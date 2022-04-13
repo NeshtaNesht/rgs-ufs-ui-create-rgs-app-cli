@@ -1,0 +1,51 @@
+{
+  "extends": [
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/react",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "project": "rgs-ufs-ui-clients/tsconfig.json"
+  },
+  "rules": {
+    "linebreak-style": "off",
+    "no-unused-vars": "warn",
+    "react/require-default-props": "off",
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off",
+    "react/no-unused-prop-types": "off",
+    "import/no-extraneous-dependencies": "off",
+    "@typescript-eslint/naming-convention": ["error", {
+      "selector": "default",
+      "format": ["snake_case", "camelCase", "UPPER_CASE", "PascalCase"]
+    }],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}
