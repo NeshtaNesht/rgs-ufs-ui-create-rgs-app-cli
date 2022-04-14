@@ -18,7 +18,7 @@
     "replace-in-file": "^6.3.2"
   },
   "bin": {
-    "create-pcap-app": "./index.js"
+    "create-rgs-app": "./index.js"
   },
   "repository": {
     "type": "git",
