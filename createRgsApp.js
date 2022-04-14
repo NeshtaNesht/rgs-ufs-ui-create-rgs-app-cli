@@ -26,7 +26,7 @@ function init() {
   if (typeof projectDirectory === 'undefined') {
     console.error(
       chalk.yellow(
-        'Необходимо задать рабочий каталог. Пример: create-pcap-app ./my-project'
+        'Необходимо задать рабочий каталог. Пример: create-rgs-app ./my-project'
       )
     );
     process.exit(1);
