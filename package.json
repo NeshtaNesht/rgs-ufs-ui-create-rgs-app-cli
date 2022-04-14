@@ -1,5 +1,5 @@
 {
-  "name": "@sber-gakrgs-ui/rgs-ufs-ui-create-rgs-app-cli",
+  "name": "@gakrgs-ui/rgs-ufs-ui-create-rgs-app-cli",
   "version": "1.0.0",
   "description": "CLI-инструмент для быстрого каркаса модульного приложения РГС",
   "main": "index.js",
