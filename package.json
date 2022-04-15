@@ -1,7 +1,7 @@
 {
   "name": "@sber-gakrgs-ui/create-rgs-app-cli",
   "version": "1.0.0",
-  "description": "CLI-инструмент для быстрого каркаса модульного приложения РГС",
+  "description": "CLI-инструмент для быстрого создания каркаса модульного приложения РГС",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
