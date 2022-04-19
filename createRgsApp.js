@@ -36,7 +36,7 @@ function init() {
   );
   projectName = readline.question(
     chalk.bold.yellow(
-      'Введите наименование проекта (для файла packaje.json. Например, rgs-my-clients): '
+      'Введите наименование проекта (для файла package.json. Например, rgs-my-clients): '
     )
   );
   if (!projectName) {
