@@ -1,7 +1,7 @@
 {
   "name": "@sber-gakrgs-ui/create-rgs-app-cli",
   "version": "1.0.0",
-  "description": "CLI-инструмент для быстрого каркаса модульного приложения РГС",
+  "description": "CLI-инструмент для быстрого создания каркаса модульного приложения РГС",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +24,7 @@
     "type": "git",
     "url": "ssh://git@stash.sigma.sbrf.ru:7999/gakrgs/rgs-ufs-ui-create-rgs-app-cli.git"
   },
-  "author": "ГАКРКС",
+  "author": "ГАКРГС",
   "license": "ISC"
 }
 
