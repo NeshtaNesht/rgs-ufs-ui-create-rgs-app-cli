@@ -141,7 +141,7 @@ function install(directory) {
       });
     })
     .catch(({ command }) => {
-      console.error(command);
+      console.error(chalk.red(command));
     });
 }
 
