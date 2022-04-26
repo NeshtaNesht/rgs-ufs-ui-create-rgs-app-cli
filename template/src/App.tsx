@@ -12,7 +12,7 @@ const App = () => {
         display: 'flex',
       }}
     >
-      <Typography variant="h2">Тут будет модуль Мои клиенты</Typography>
+      <Typography variant="h2">Тут будет новый модуль</Typography>
     </div>
   );
 };
