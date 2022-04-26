@@ -27,6 +27,7 @@
     "@material-ui/pickers": "^3.3.10",
     "@material-ui/styles": "4.11.2",
     "@pcapcc360/react-ui": "2.4.6",
+    "@sber-gakrgs-ui/rgs-ufs-ui-support-lib": "*",
     "@types/dotenv-webpack": "^7.0.3",
     "@types/node": "^17.0.14",
     "@types/react": "^17.0.38",

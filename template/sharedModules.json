@@ -11,6 +11,7 @@
     "@material-ui/styles": "*",
     "@material-ui/lab": "*",
     "@pcapcc360/react-ui": "*",
+    "@sber-gakrgs-ui/rgs-ufs-ui-support-lib": "*",
     "@reduxjs/toolkit": "*",
     "axios": "*",
     "moment": "*",
