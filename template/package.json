@@ -4,7 +4,7 @@
   "scripts": {
     "start": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack-dev-server --config webpack.config.dev.ts",
     "server": "mock-json-server db.json --port=3000",
-    "start:dev": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" export NODE_ENV=development && concurrently \"npm run server\" \"npm run start\"",
+    "start:dev": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" && concurrently \"npm run server\" \"npm run start\"",
     "build": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" NODE_ENV=production webpack --config webpack.config.ts && rm -rf ./node_modules",
     "build-local": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" NODE_ENV=production webpack --config webpack.config.ts",
     "relock": "rm -rf package-lock.json && rm -rf node_modules",

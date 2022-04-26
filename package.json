@@ -1,6 +1,6 @@
 {
   "name": "@sber-gakrgs-ui/create-rgs-app-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI-инструмент для быстрого создания каркаса модульного приложения РГС",
   "main": "index.js",
   "scripts": {
